@@ -28,7 +28,7 @@ So if some other node sends in a new chain that's longer than yours, your chain 
 
 #### Private Variables:
 
-- blockchain(vector<unique_ptr<Block> >): vector of smart pointers to Block objects
+- blockchain(vector<unique_ptr<Block>>): vector of smart pointers to Block objects
 - blockchain(KeyPairHex): pair of public and private key
 
 Genesis Block is created during intialization.
@@ -94,6 +94,6 @@ There is a mechanism to check if transaction is correct via checking signature.
 - "Mining" part
 - finds hash and returns a std::pair of the hash found and nonce used to find it
 
-#### Borrowings
+## Borrowings
 
 In this project I took a lot of code from [ya332 repo](https://github.com/ya332/Simple-Blockchain-Implementation). Also I took several concepts from [this repo](https://github.com/ayushmishra2005/rust_blockchain). Very big thanks to their developers!
