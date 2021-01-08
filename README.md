@@ -8,7 +8,15 @@ This program provides only a Command Line interface (I'll think about adding Qt 
 - C++14 (or higher)
 - Boost
 - OpenSSL
+- Crypto++
 - [JSON library](https://github.com/nlohmann/json)
+
+**cryptopp folder must be in the same dirrectory with other files**. You can run these commands to do that:
+```
+git clone https://github.com/weidai11/cryptopp.git
+cd cryptopp
+cp TestScripts/cryptest-cmake.sh . ./cryptest-cmake.sh
+```
 
 #### Conflicts in different chains
 
