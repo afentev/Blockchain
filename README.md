@@ -37,7 +37,7 @@ Genesis Block is created during intialization.
 
 Every time you want to add a block to the blockchain, you will need to provide it:
 
-`int index, string prevHash, string hash, string nonce, vector<string> &merkle`, vector<Transaction> tr, string miner, bool self
+`int index, string prevHash, string hash, string nonce, vector<string> &merkle, vector<Transaction> tr, string miner, bool self`
 
 - index: index of the block
 - prevHash: hash of the previous block
